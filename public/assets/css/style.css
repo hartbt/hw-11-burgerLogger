@@ -1,7 +1,7 @@
 li {
   padding: 5px;
   margin: 5px;
-  background: #faebd7;
+  background: maroon;
 }
 
 .label {
@@ -16,4 +16,32 @@ li {
 
 .form-group {
   margin-bottom: 5px;
+}
+
+.titleArea {
+  text-align: center;
+  background-color: rgb(207, 178, 60 );
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.notDevoured, .isDevoured {
+  color: white;
+}
+
+.change-devoured {
+  background-color: rgb(207, 178, 60 );
+  color: black;
+}
+
+.delete-burger {
+  background-color: rgb(207, 178, 60 );
+  outline: rgb(207, 178, 60 );
+  color: black;
+}
+
+div {
+  text-align: center;
+  background-color: maroon;
+  color: white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
